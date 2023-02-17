@@ -19,7 +19,7 @@ import UIKit
 @objc public class SketchfabEntity: Entity {
     private let _rootNode = SCNNode()
     private let _jsonPayloadHeader = [
-        "Authorization": "Token 7bf8504bebea45dea595502c5fd67740",  // this token is expired, replace it with your own
+        "Authorization": "Token 9760e420366d4578a7054ba04056593e",  // this token is expired, replace it with your own
         "Content-Type": "application/json"
     ]
     private var _task: URLSessionDataTask?
